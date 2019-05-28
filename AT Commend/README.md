@@ -34,7 +34,7 @@ AT+HTTPACTION=0 //Get session start
 যখন ওয়েব পেজটি ডাওণলোয়াড হয়ে জাবে। সিরিয়াল মনিটর এ ওই পেজ এর পূর কন্টেন্ট দেখা যাবে। 
 AT+HTTPREAD //Read the data of the HTTP server
 
-#লোকেশন জানার জন্যঃ
+# লোকেশন জানার জন্যঃ
 
 AT+CLBSCFG=0,2 //Get Times have use positioning command
 AT+CLBS=1,1 //Get current longitude, latitude and precision
@@ -57,6 +57,6 @@ AT+CIPGSMLOC=2,1 //to get gsm time and date
 
 AT+SAPBR =0,1 //to deactivate bearer profile.
 
-#মোবাইল এর টাকা চেক করতে 
+# মোবাইল এর টাকা চেক করতে 
 
 AT+CUSD=1,''*566#''
