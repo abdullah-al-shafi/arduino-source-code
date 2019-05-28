@@ -37,8 +37,11 @@ AT+HTTPREAD //Read the data of the HTTP server
 # লোকেশন জানার জন্যঃ
 
 AT+CLBSCFG=0,2 //Get Times have use positioning command
+
 AT+CLBS=1,1 //Get current longitude, latitude and precision
+
 AT+CLBS=3,1 //Get access times
+
 AT+CLBS=4,1 //Get longitude, latitude, precision and date time
 
 AT+CGATT =1 // to attach GPRS.
